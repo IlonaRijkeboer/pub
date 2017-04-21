@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -16,19 +16,18 @@
         "subtitleFont": "Lora",
         "textFont": "Raleway",
         "isRoundedButtons": false,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": true,
+        "isRtl": false
       }
     },
     "versionFirst": "3.9.0",
-    "uniqCompNum": 16,
-    "versionPublish": "3.9.0",
+    "uniqCompNum": 24,
+    "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "What's life without cookies? Click here for more information <a href='privacy.html'>cookie policy</a>.",
-    "google-analytics": "",
-    "publishType": "github",
-    "publishPath": "file:///C:/Users/Ilona/Desktop/projectmobirise"
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
@@ -176,7 +175,7 @@
             "sticky": false,
             "logo": false,
             "showBrand": false,
-            "collapsed": false,
+            "collapsed": true,
             "hideButtons": true
           },
           "logo": {
@@ -194,7 +193,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WORK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>HOME&nbsp;</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">ABOUT ME&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">WORKS&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
         }
       ]
     },
@@ -293,7 +292,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WORK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>HOME&nbsp;</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">ABOUT ME&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\">WORKS&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -304,12 +303,13 @@
           "_styles": {
             "LI": {
               "text-align": "center",
-              "font-size": "14px"
+              "font-size": "14px",
+              "color": "#ffffff"
             }
           },
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "2",
+            "paddingTop": "0",
+            "paddingBottom": "4",
             "images": [
               {
                 "tags": "SKETCHBOOK",
@@ -348,26 +348,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/4-2000x2956-95-2000x2956-75.jpg",
                 "image": "@PROJECT_PATH@/assets/images/4-2000x2956-95.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model33-2000x1435-26-2000x1435-53.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model33-2000x1435-26.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "SKETCHBOOK",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/7-2000x1481-36-2000x1481-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/7-2000x1481-36.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -412,36 +392,6 @@
                 "active": false
               },
               {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model35-2000x1496-89-2000x1496-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model35-2000x1496-89.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model25-2000x1468-90-2000x1468-8.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model25-2000x1468-90.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model19-2000x1525-67-2000x1525-39.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model19-2000x1525-67.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
                 "tags": "PAINTINGS",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -458,16 +408,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/speelgoed-2000x1481-19-2000x1481-76.jpg",
                 "image": "@PROJECT_PATH@/assets/images/speelgoed-2000x1481-19.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/stoel3-2000x1037-8-2000x1037-0.jpg",
-                "image": "@PROJECT_PATH@/assets/images/stoel3-2000x1037-8.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -512,16 +452,6 @@
                 "active": false
               },
               {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/budapest-2000x2666-23-2000x2666-83.jpg",
-                "image": "@PROJECT_PATH@/assets/images/budapest-2000x2666-23.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
                 "tags": "PAINTINGS",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -538,26 +468,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/landschap2-2000x1396-35-2000x1396-79.jpg",
                 "image": "@PROJECT_PATH@/assets/images/landschap2-2000x1396-35.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model10-2000x1462-51-2000x1462-42.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model10-2000x1462-51.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "DRAWINGS",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/model24-2000x2735-39-2000x2735-43.jpg",
-                "image": "@PROJECT_PATH@/assets/images/model24-2000x2735-39.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -636,6 +546,16 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/yasmin-2000x1438-66-2000x1438-10.jpg",
+                "image": "@PROJECT_PATH@/assets/images/yasmin-2000x1438-66.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "PAINTINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/stones-2000x1480-80-2000x1480-59.jpg",
                 "image": "@PROJECT_PATH@/assets/images/stones-2000x1480-80.jpg",
                 "caption": "Type caption here",
@@ -652,27 +572,167 @@
                 "active": false
               },
               {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p15-2000x2943-76-2000x2943-94.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p15-2000x2943-76.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p16-2000x2910-31-2000x2910-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p16-2000x2910-31.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p17-2000x2803-62-2000x2803-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p17-2000x2803-62.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p18-2000x2877-58-2000x2877-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p18-2000x2877-58.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
                 "tags": "PAINTINGS",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/yasmin-2000x1438-66-2000x1438-10.jpg",
-                "image": "@PROJECT_PATH@/assets/images/yasmin-2000x1438-66.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p1-2000x1593-64-2000x1593-93.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p1-2000x1593-64.jpg",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "PAINTINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-8153-2000x3249-82-2000x3249-68.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mg-8153-2000x3249-82.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p11-2000x1379-33-2000x1379-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p11-2000x1379-33.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p12-2000x1434-55-2000x1434-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p12-2000x1434-55.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p19-2000x1585-87-2000x1585-32.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p19-2000x1585-87.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p20-2000x1620-19-2000x1620-32.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p20-2000x1620-19.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p21-2000x1632-54-2000x1632-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p21-2000x1632-54.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p22-2000x1580-92-2000x1580-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p22-2000x1580-92.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "DRAWINGS",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/p23-2000x1583-14-2000x1583-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/p23-2000x1583-14.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "SCULPTURES",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mg-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-mg-2000x1333.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "SCULPTURES",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-5068klein-2000x1901-800x760.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-5068klein-2000x1901.jpg",
+                "caption": "Type caption here",
+                "active": true
               }
             ],
-            "spacing": "0",
+            "spacing": "2",
             "showText": false,
             "filter": true,
             "bgColor": "#efefef",
             "filterBgColor": false,
-            "fullWidth": true,
+            "fullWidth": false,
             "showBullets": true
           },
           "_anchor": "gallery2-6",
           "articleLayout": false,
-          "allItem": ""
+          "allItem": "ALL"
         },
         {
           "_tags": [
@@ -795,7 +855,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WORK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\"><span class=\"mbri-user2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
         },
         {
           "_name": "footer1",
@@ -975,7 +1035,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\">ABOUT ME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">WORK</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\" aria-expanded=\"false\"><span class=\"mbri-user2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" aria-expanded=\"false\"><span class=\"mbri-magic-stick mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(255, 255, 255);\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\"><span class=\"mbri-letter mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px;\"></span></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">CONTACT</a></li>"
         },
         {
           "_name": "footer1",
